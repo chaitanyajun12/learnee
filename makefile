@@ -1,8 +1,11 @@
 CC=g++
 CFLAGS=-Iincludes/
 
-webserver: main HttpRequestParser ServerFileSystem HttpResponseGenerator SocketConnection
+webserver: create main HttpRequestParser ServerFileSystem HttpResponseGenerator SocketConnection
 			$(CC) -o webserver build/main.o build/HttpRequestParser.o build/ServerFileSystem.o build/HttpResponseGenerator.o build/SocketConnection.o $(CFLAGS)
+
+create:
+			mkdir build/
 
 main: src/main.cpp
 			$(CC) -c -o build/main.o $(CFLAGS) src/main.cpp
