@@ -14,3 +14,8 @@ Installation
 Your Learnee server will be up and running!
 
 Coming soon!
+
+Status
+======
+
+Still under development.
