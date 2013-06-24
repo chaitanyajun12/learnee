@@ -1,7 +1,5 @@
-Learnee
-=======
-
-A simple HTTP web server in C++. 
+Learnee - A Simple HTTP Web Server
+==================================
 
 Just to understand the internal workings of a web server.
 
