@@ -11,7 +11,8 @@ Installation
 
 Your Learnee server will be up and running!
 
-Coming soon!
+Within that server location, you can put your HTML files and those can be accessed through the browser.
+
 
 Status
 ======
