@@ -25,4 +25,5 @@ SocketConnection: src/SocketConnection.cpp
 
 clean:
 		rm -f build/*.o ./webserver
+		rm -r build/
 
