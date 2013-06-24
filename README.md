@@ -1,7 +1,7 @@
 Learnee - A Simple HTTP Web Server
 ==================================
 
-Just to understand the internal workings of a web server.
+Just to understand the internal workings of a Web Server.
 
 Installation
 ============
